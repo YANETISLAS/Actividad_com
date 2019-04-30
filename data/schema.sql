@@ -53,6 +53,4 @@ VALUES ('admin',MD5(concat('admin', 'kuorra_key')), 0, 1, 'Admin', 'admin@gmail.
 SELECT * FROM users;
 SELECT * FROM sessions;
 
-CREATE USER 'ferreteria'@'localhost' IDENTIFIED BY 'ferreteria.2019';
-GRANT ALL PRIVILEGES ON ferreteria_yiy.* TO 'ferreteria'@'localhost';
-FLUSH PRIVILEGES;
+
