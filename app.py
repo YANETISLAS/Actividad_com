@@ -28,7 +28,7 @@ urls = (
     '/clientes/delete/(.+)', 'application.controllers.clientes.delete.Delete',
     '/clientes/insert', 'application.controllers.clientes.insert.Insert',
     '/api_clientes/?', 'application.api.clientes.api_clientes.Api_clientes',
-    
+    #api_clientes para json 
 )
 
 app = web.application(urls, globals())
